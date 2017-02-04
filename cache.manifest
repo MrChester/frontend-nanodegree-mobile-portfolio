@@ -1,7 +1,7 @@
 CACHE MANIFEST
 
 CACHE:
-fonts/OpenSans-Bold-webfont.eot
+fonts/OpenSans-Bold-webfont.eot private, max-age=600
 fonts/OpenSans-Bold-webfont.svg
 fonts/OpenSans-Bold-webfont.ttf
 fonts/OpenSans-Bold-webfont.woff
