@@ -9,11 +9,24 @@
     <meta http-equiv="Cache-Control" content="max-age=600">
     <title>Cameron Pittman: Portfolio</title>
     <style>
-       html{position: relative;}
-       .container:after, .container:before{content: ""; display: table;}
-       .container:after{clear: both;}
-    </style>
+    html {
+        position: relative;
+    }
     
+    .container:after,
+    .container:before {
+        content: "";
+        display: table;
+    }
+    
+    .container:after {
+        clear: both;
+    }
+
+    .content{max-width: 45%;}
+    </style>
+
+
 </head>
 
 <body>
@@ -34,7 +47,8 @@
     <div class="container">
         <div class="hero"> <strong>I love web development!</strong> This is a template for a simple portfolio. I decided to use it to showcase a few Udacity courses I've taken and some teaching work, but you can use it to showcase any kind of project that you want the world to see :)
             <br> Contact me: me@email.com </div>
-        <div class="content">
+    </div>
+    <div class="content">
             <ul>
                 <li> <img src="img/project-2048.jpg"> <a href="project-2048.html">Build Your Own 2048!</a>
                     <p>I made my own version of 2048. How cool is that!?</p>
@@ -50,14 +64,13 @@
                 </li>
             </ul>
         </div>
-        <footer class="footer">
-           <div class="container">
-                <div class="footer__copy">&copy; Web Performance 2014</div>
-                <span id="crp-stats"></span>
-                <!-- <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p> -->
-           </div>
-        </footer>
-    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__copy">&copy; Web Performance 2014</div>
+            <span id="crp-stats"></span>
+            <!-- <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p> -->
+        </div>
+    </footer>
     <script async src="js/javascript.min.js"></script>
     <link href="css/style.min.css" rel="stylesheet" property="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" property="stylesheet">
