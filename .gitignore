@@ -4,4 +4,5 @@ app.bundle.js
 app.bundle.js.map
 npm-debug*
 ng-rok
-index.html
+cache-reserve.manifest
+index-reserve.html

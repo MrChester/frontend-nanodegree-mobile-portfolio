@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=" FILL ME IN ">
     <meta name="author" content=" FILL ME IN ">
+    <meta http-equiv="Cache-Control" content="max-age=600">
     <title>Cameron Pittman: Portfolio</title>
     <style>
-    
+       html{position: relative;}
+       .container:after, .container:before{content: ""; display: table;}
+       .container:after{clear: both;}
     </style>
-    <script>
-        
-    </script>
-    <meta http-equiv="Cache-Control" content="max-age=600">
+    
 </head>
 
 <body>
@@ -51,10 +51,14 @@
             </ul>
         </div>
         <footer class="footer">
-            <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
+           <div class="container">
+                <div class="footer__copy">&copy; Web Performance 2014</div>
+                <span id="crp-stats"></span>
+                <!-- <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p> -->
+           </div>
         </footer>
     </div>
+    <script async src="js/javascript.min.js"></script>
     <link href="css/style.min.css" rel="stylesheet" property="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" property="stylesheet">
 </body>
-
-</html>
