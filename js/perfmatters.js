@@ -12,5 +12,5 @@
       }
 
 window.addEventListener("load", function(event) {
-  logCRP();
+  measureCRP();
 });
