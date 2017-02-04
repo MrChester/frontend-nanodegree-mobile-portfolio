@@ -1,6 +1,23 @@
 CACHE MANIFEST
 
 CACHE:
+fonts/OpenSans-Bold-webfont.eot
+fonts/OpenSans-Bold-webfont.svg
+fonts/OpenSans-Bold-webfont.ttf
+fonts/OpenSans-Bold-webfont.woff
+fonts/OpenSans-Italic-webfont.eot
+fonts/OpenSans-Italic-webfont.svg
+fonts/OpenSans-Italic-webfont.ttf
+fonts/OpenSans-Italic-webfont.woff
+fonts/OpenSans-Light-webfont.eot
+fonts/OpenSans-Light-webfont.svg
+fonts/OpenSans-Light-webfont.ttf
+fonts/OpenSans-Light-webfont.woff
+fonts/OpenSans-Regular-webfont.eot
+fonts/OpenSans-Regular-webfont.svg
+fonts/OpenSans-Regular-webfont.ttf
+fonts/OpenSans-Regular-webfont.woff
+
 css/style.css
 css/style.min.css
 js/javascript.min.js
